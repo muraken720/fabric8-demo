@@ -15,7 +15,6 @@ public class Fabric8DemoApplication {
   @RequestMapping(path = "/")
   String hello() {
     return "Hello @" + id;
-
   }
 
   public static void main(String[] args) {
